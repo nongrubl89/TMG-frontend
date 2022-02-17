@@ -74,7 +74,7 @@ export default function CardContainer({
       {i % 2 === 0 ? <Blob /> : <Blob2 />}
 
       <ImageDiv
-        src={`http://localhost:4000/public/${player.image[0].filename}`}
+        src={`https://tmgbackend.herokuapp.com/public/${player.image[0].filename}`}
         alt="player serving"
       ></ImageDiv>
       <NameDiv>{player.name}</NameDiv>
