@@ -64,8 +64,8 @@ export default function BoardContainer() {
   useEffect(() => {
     async function getData() {
       Promise.all([
-        axios.get("http://localhost:4000/females"),
-        axios.get("http://localhost:4000/males"),
+        axios.get("https://tmgbackend.herokuapp.com/females"),
+        axios.get("https://tmgbackend.herokuapp.com/males"),
       ]).then(
         ([femaleRes, maleRes]) => {
           console.log(femaleRes);
