@@ -10,7 +10,6 @@ const Container = styled.div`
   padding: 4rem 2rem;
   position: relative;
   border-bottom: 0px;
-  overflow: hidden;
 `;
 
 const Title = styled.h1`
